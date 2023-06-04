@@ -26,7 +26,7 @@
 		"takemethisoff.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.19",
+		"fabricloader": ">=0.14.13",
 		"minecraft": "~1.19.2",
 		"java": ">=17",
 		"fabric-api": "*"

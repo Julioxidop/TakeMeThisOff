@@ -24,7 +24,6 @@ public abstract class PreventBlindHidingMixin {
         if (client.player != null && ((BlindedState) client.player).getBlindedState()){
             client.options.hudHidden = false;
         }
-
     }
 
 }

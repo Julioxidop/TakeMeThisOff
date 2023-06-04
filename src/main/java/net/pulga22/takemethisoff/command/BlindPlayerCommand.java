@@ -47,7 +47,7 @@ public class BlindPlayerCommand {
             buf.writeBoolean(true);
             ServerPlayNetworking.send(player, ModMessages.SET_BLINDED_STATE, buf);
         });
-        Objects.requireNonNull(source.getPlayer()).sendMessage(Text.literal("Blinded..."));
+        Objects.requireNonNull(source.getPlayer()).sendMessage(Text.literal("Blinding..."));
         return 1;
     }
 
@@ -59,7 +59,7 @@ public class BlindPlayerCommand {
             buf.writeBoolean(false);
             ServerPlayNetworking.send(player, ModMessages.SET_BLINDED_STATE, buf);
         });
-        Objects.requireNonNull(source.getPlayer()).sendMessage(Text.literal("Un-Blinded..."));
+        Objects.requireNonNull(source.getPlayer()).sendMessage(Text.literal("Un-Blinding..."));
         return 1;
     }
 
